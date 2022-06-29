@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD49CD15286CEEC000C2B6FF /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49CD14286CEEC000C2B6FF /* FourthViewController.swift */; };
 		BD5FB458286C98EC00153ABF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FB457286C98EC00153ABF /* SecondViewController.swift */; };
 		BD9C1542286CE331009C5116 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9C1541286CE331009C5116 /* ThirdViewController.swift */; };
 		BDB21CB7286B8FB500679D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB21CB6286B8FB500679D2A /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD49CD14286CEEC000C2B6FF /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		BD5FB457286C98EC00153ABF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BD9C1541286CE331009C5116 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BDB21CB3286B8FB500679D2A /* imFeelingLucky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imFeelingLucky.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 				BDB21CBA286B8FB500679D2A /* ViewController.swift */,
 				BD5FB457286C98EC00153ABF /* SecondViewController.swift */,
 				BD9C1541286CE331009C5116 /* ThirdViewController.swift */,
+				BD49CD14286CEEC000C2B6FF /* FourthViewController.swift */,
 				BDB21CBC286B8FB500679D2A /* Main.storyboard */,
 				BDB21CC2286B8FB600679D2A /* Assets.xcassets */,
 				BDB21CC4286B8FB600679D2A /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				BDB21CBB286B8FB500679D2A /* ViewController.swift in Sources */,
 				BDB21CB7286B8FB500679D2A /* AppDelegate.swift in Sources */,
 				BDB21CB9286B8FB500679D2A /* SceneDelegate.swift in Sources */,
+				BD49CD15286CEEC000C2B6FF /* FourthViewController.swift in Sources */,
 				BD5FB458286C98EC00153ABF /* SecondViewController.swift in Sources */,
 				BD9C1542286CE331009C5116 /* ThirdViewController.swift in Sources */,
 				BDB21CC1286B8FB500679D2A /* imFeelingLucky.xcdatamodeld in Sources */,
