@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,24 +16,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="I'm feeling lucky" translatesAutoresizingMaskIntoConstraints="NO" id="4UK-Mo-Ye1">
-                                <rect key="frame" x="0.0" y="16" width="414" height="709"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQY-Tg-TXf">
-                                <rect key="frame" x="70" y="583" width="274" height="53"/>
+                                <rect key="frame" x="70" y="784" width="274" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="BEGIN">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
-                                    <color key="baseForegroundColor" red="0.63921568630000003" green="0.14901960780000001" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" systemColor="systemBlueColor"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" name="AccentColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Submit:" destination="A1k-X9-kmM" eventType="touchUpInside" id="w6M-Rr-Mqm"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="kaQ-m6-P59"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="4UK-Mo-Ye1">
+                                <rect key="frame" x="-41" y="-46" width="455" height="908"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eGq-sA-ZLB"/>
                         <color key="backgroundColor" red="0.98039215690000003" green="0.94117647059999998" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -41,14 +42,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pvx-cG-fZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-520" y="-736"/>
+            <point key="canvasLocation" x="-520.28985507246375" y="-736.60714285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="imFeelingLucky" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="i'm feeling lucky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ut-Uy-JV0">
@@ -327,12 +328,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="a4x-ua-niv"/>
+        <segue reference="kaQ-m6-P59"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="I'm feeling lucky" width="1024" height="1024"/>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="Image" width="1080" height="1920"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
